@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWrZDNwC2icXduYleDAEungvAcv55RSb5eIw&s);
+    background-size: cover; */
+}
+
+.header {
+    max-width: 100%;
+    min-width: 300px;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(249, 245, 245);
+    display: flex;
+
+    font-size: 13px;
+}
+.box1{
+    width:337px;
+    min-width: 60px;
+    text-align: center;
+}
+.box1:hover{
+    color: red;
+}
+.box3{
+    width: 337px;
+    min-width:60px ;
+    text-align: center;
+}
+.box3:hover{
+    color: red;
+}
+.box4{
+    text-align: center;
+    width: 337px;
+    min-width: 60px;
+}
+.box4:hover{
+    color: red;
+}
+.box5{
+    text-align: center;
+    width: 337px;
+    min-width: 60px;
+}
+.box5:hover{
+    color: red;
+}
+.navbar {
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url(https://cms-resources.groww.in/uploads/TAX_SLAB_2025_04_01_T130211_966_11zon_c3829156ea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider {
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100%;
+    min-height: auto;
+}
+.fake{
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 60px;
+    margin-top: 5px;
+    bottom: 0px;
+}
+.all{
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 400px;
+}
+.box0{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height: 70px;
+    margin-top: -40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.x1{
+    width: 330px;
+    border-radius: 20px;
+    text-align: center;
+}
+.x2{
+    width: 330px;
+    text-align: center;
+    border-radius: 20px;
+}
+.x3{
+    width: 335px;
+    text-align: center;
+    border-radius: 20px;
+}
+.x4{
+    width: 335px;
+    text-align: center;
+    border-radius: 20px;
+}
+.boxa{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height: 60px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.aa{
+    width: 661px;
+    border-radius: 10px;
+    text-align: center;
+}
+.aaa{
+    width: 660px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.boxb{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height:60px;
+    margin-top:5px;
+    border-radius: 20px;
+    display: flex;
+}
+.boxc{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.c1{
+    width:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c11{
+    height: 60px;
+    width: 50px;
+    border-radius: 30px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c2{
+    width:970px;
+    margin-left: 5px;
+
+}
+.c22{
+    height: 60px;
+    margin-left: 5px;
+    width: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c3{
+    width:100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxd{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.six{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 1px solid orangered;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:orangered;
+}

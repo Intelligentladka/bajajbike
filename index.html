@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Register</title>
+</head>
+<style>
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+</style>
+<body>
+    <div class="outer">
+        <div class="header">Welcome</div>
+        <div class="navbar">Register your phone</div>
+        <hr style="margin-top: 20px; background-color: rgb(255, 0, 0); height: 3px;margin-left: 10px; margin-right: 10px;">
+          <form>
+            <div class="slider">
+              <div class="box">
+                <div class="box1">
+                    <div class="container">
+                        <label for="uname"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 30 17" width="24" height="24" fill="currentColor"><path d="M3 4.99509C3 3.89323 3.89262 3 4.99509 3H19.0049C20.1068 3 21 3.89262 21 4.99509V19.0049C21 20.1068 20.1074 21 19.0049 21H4.99509C3.89323 21 3 20.1074 3 19.0049V4.99509ZM5 5V19H19V5H5ZM7.97216 18.1808C7.35347 17.9129 6.76719 17.5843 6.22083 17.2024C7.46773 15.2753 9.63602 14 12.1022 14C14.5015 14 16.6189 15.2071 17.8801 17.0472C17.3438 17.4436 16.7664 17.7877 16.1555 18.0718C15.2472 16.8166 13.77 16 12.1022 16C10.3865 16 8.87271 16.8641 7.97216 18.1808ZM12 13C10.067 13 8.5 11.433 8.5 9.5C8.5 7.567 10.067 6 12 6C13.933 6 15.5 7.567 15.5 9.5C15.5 11.433 13.933 13 12 13ZM12 11C12.8284 11 13.5 10.3284 13.5 9.5C13.5 8.67157 12.8284 8 12 8C11.1716 8 10.5 8.67157 10.5 9.5C10.5 10.3284 11.1716 11 12 11Z"></path></svg>Enter Full Name</label>
+                        <input type="text" placeholder="Enter Your Name" name="uname" required>
+                        <label for="uname"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 30 17" width="24" height="24" fill="currentColor"><path d="M7 4V20H17V4H7ZM6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17Z"></path></svg>Phone Number</label>
+                        <input type="text" placeholder="Enter Your Number Number" name="uname" required>
+                        <label for="psw"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 30 17" width="24" height="24" fill="currentColor"><path d="M6 8V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6ZM19 10H5V20H19V10ZM11 15.7324C10.4022 15.3866 10 14.7403 10 14C10 12.8954 10.8954 12 12 12C13.1046 12 14 12.8954 14 14C14 14.7403 13.5978 15.3866 13 15.7324V18H11V15.7324ZM8 8H16V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8Z"></path></svg>Set Password</label>
+                        <input type="password" placeholder="Enter Your Password" name="psw" required>
+                        <label for="psw"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 30 17" width="24" height="24" fill="currentColor"><path d="M6 8V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6ZM19 10H5V20H19V10ZM11 15.7324C10.4022 15.3866 10 14.7403 10 14C10 12.8954 10.8954 12 12 12C13.1046 12 14 12.8954 14 14C14 14.7403 13.5978 15.3866 13 15.7324V18H11V15.7324ZM8 8H16V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8Z"></path></svg>Confirm Password</label>
+                        <input type="password" placeholder="Confirm Your Password" name="psw" required>
+                        <label for="psw"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 30 17" width="24" height="24" fill="currentColor"><path d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"></path></svg>Invite Code</label>
+                        <input type="text" id="Invite Code" value="BAJAJXYZ678" required style="color: grey;">
+                        <input type="radio" id="html" name="privacy Policy" value="HTML" required>&nbsp;&nbsp;<h>I Have Read And Agree<a href="" >[Privacy Policy]</a></h> 
+                        <div class="login"><button type="submit" id="submit" formaction="home.html"  onclick="openpopup()" style="width: 100%;height:40px; border-radius: 20px; border: none; font-size: 20px; color: whitesmoke;">Register</button></div>
+                        <div class="reg">I Have An Account<a href="login.html">&nbsp;&nbsp;Login</a></div>
+                </div>
+              </div>
+            </div>
+        </form>
+</body>
+</html>

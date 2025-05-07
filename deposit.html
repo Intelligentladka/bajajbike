@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add money</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.slider {
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 100%;
+}
+.box1{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBwcHBw8QBwcHBxYHBwcHChAICQcNFREiFhURFR8YHSggGBolJxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NGg0NDysZHxkrKysrKysrLSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAwQBB//EABUQAQEAAAAAAAAAAAAAAAAAAAAS/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgcF/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAMAwEAAhEDEQA/APTqKQst5XL6C9FIWWSL0UhZZIvRSFlki9FIWWSL0UhZZIvRSFlki9FIWWSL0UhZZIvRSFlki9FIWWSL0UhZZIvRSFlki9FIWWSL0IWEiFloWW2lyvZaFlki9loWWSL2WhZZIvZaFlki9loWWSL2WhZZIvZaFlki9loWWSL2WhZZIvZaFlki9loWWSL2WhZZIvZaFlki9iFhKoUUhRTaXK9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0IUEiFloWW2lF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXsQsJELLQoptKL2WhRRIvZaFFEi9loUUSL2WhRRIvZaFFEi9loUUSL2WhRRIvZaFFEi9loUUSL2WhRRIvZaFFEi9loUUSL2WhRRIvYhQSIUUhZbaUXopCyyReikLLWReikLLSReikLLWReikLLSReikLLJF6KQsskXopCyyReikLLJF6KQsskXopCyyReikLLJF6KQsskXoQt1ZGeikKKbSi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL06z0EiNFs9FNpRoty0KKJF7dpnookXt2meiiRey0KKJGinLQookaKctCiiRospnookaLLZ6KJF7dpnookXt2meiiRey0KKJGinLQookaKctCiiRexCgkQopCy20uV6KQsskXopCyyReikLLJF6KQsskXopCyyReikLLJF6KQsskXopCyyReikLLJGiimeyyReikLLJF6KQsskXopCyyRehCwkQstGy28otZaNlki1lo2WSLWWjZZItZaNlki1lo2WSLWWjZZItZaNlki1lo2WSLWWjZZItZaNlki1lo2WSLWWjZZItZaNlki1iNhIhZaFltpRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF6ELCRCikKKbSi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRItTtIUUSL0UhRRIvTiNBIhZaFltpRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF7LQsskXstCyyRey0LLJF6ELCRCikKKbSi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0UhRRIvRSFFEi9FIUUSL0IUEiYDRAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//Z);
+    background-size: cover;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 1000;
+    color:rgb(255, 255, 255);
+
+}
+.box2{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 200, 0);
+    min-height: 120px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+.box3{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:whitesmoke;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.box4{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    min-height: 160px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box5{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box6{
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box{
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    text-align: center;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.b{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+}
+.c{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+}
+.d{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 5px;
+}
+.a1{
+    width: 430px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.a2{
+    width: 440px;
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.a3{
+    width: 440px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+select{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+.rec{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+    height: 40px;
+    border-radius: 20px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+</style>
+<body>
+        
+    <div class="outer">
+        <div class="slider">
+        <div class="box1">Add Balance</div>
+        <div class="box2">
+            &nbsp;<p style="font-size: 18px; margin-left: 15px;">Minimum Deposit 200 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -5 24 24" width="48" height="48" fill="currentColor"><path d="M14.5049 2.00281C16.4379 2.00281 18.0049 3.56981 18.0049 5.50281C18.0049 6.04001 17.8839 6.54895 17.6676 7.00385L21.0049 7.00281C21.5572 7.00281 22.0049 7.45052 22.0049 8.00281V12.0028C22.0049 12.5551 21.5572 13.0028 21.0049 13.0028H20.0049V21.0028C20.0049 21.5551 19.5572 22.0028 19.0049 22.0028H5.00488C4.4526 22.0028 4.00488 21.5551 4.00488 21.0028V13.0028H3.00488C2.4526 13.0028 2.00488 12.5551 2.00488 12.0028V8.00281C2.00488 7.45052 2.4526 7.00281 3.00488 7.00281L6.34219 7.00385C6.12591 6.54895 6.00488 6.04001 6.00488 5.50281C6.00488 3.56981 7.57189 2.00281 9.50488 2.00281C10.4849 2.00281 11.3708 2.40557 12.0061 3.05459C12.639 2.40557 13.5249 2.00281 14.5049 2.00281ZM18.0049 13.0028H6.00488V20.0028H18.0049V13.0028ZM20.0049 9.00281H4.00488V11.0028H20.0049V9.00281ZM9.50488 4.00281C8.67646 4.00281 8.00488 4.67438 8.00488 5.50281C8.00488 6.2825 8.59977 6.92326 9.36042 6.99594L9.50488 7.00281H11.0049V5.50281C11.0049 4.72311 10.41 4.08236 9.64934 4.00967L9.50488 4.00281ZM14.5049 4.00281L14.3604 4.00967C13.6473 4.07782 13.0799 4.64524 13.0117 5.35835L13.0049 5.50281V7.00281H14.5049L14.6493 6.99594C15.41 6.92326 16.0049 6.2825 16.0049 5.50281C16.0049 4.72311 15.41 4.08236 14.6493 4.00967L14.5049 4.00281Z"></path></svg></p>
+            <div class="box">
+                &nbsp;<p style="font-size: 20px;">₹ 0</p>
+                <p>Account Balance</p>
+            </div>
+        </div>
+        <div class="box3">
+            <input type="text" id="text" placeholder="₹ Enter Deposit Amount">
+        </div>
+        <div class="box4">
+            <p style="margin-left: 10px; margin-top: 5px;"><svg style="color: rgb(0, 255, 0);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 10" width="24" height="24" fill="currentColor"><path d="M22.0049 6.99979H23.0049V16.9998H22.0049V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V6.99979ZM20.0049 16.9998H14.0049C11.2435 16.9998 9.00488 14.7612 9.00488 11.9998C9.00488 9.23836 11.2435 6.99979 14.0049 6.99979H20.0049V4.99979H4.00488V18.9998H20.0049V16.9998ZM21.0049 14.9998V8.99979H14.0049C12.348 8.99979 11.0049 10.3429 11.0049 11.9998C11.0049 13.6566 12.348 14.9998 14.0049 14.9998H21.0049ZM14.0049 10.9998H17.0049V12.9998H14.0049V10.9998Z"></path></svg>&nbsp;Select amount</p>
+           <hr>
+            <div class="b">
+                <div class="a1">200</div>
+                <div class="a2">500</div>
+                <div class="a3">1200</div>
+            </div>
+            <div class="c">
+                <div class="a1">1500</div>
+                <div class="a2">2500</div>
+                <div class="a3">5000</div> 
+            </div>
+            <div class="d">
+                <div class="a1">8000</div>
+                <div class="a2">10000</div>
+                <div class="a3">15000</div>
+            </div>
+        </div>
+        <div class="box5">
+            <p style="margin-left: 10px; margin-top: 5px;"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 10" width="24" height="24" fill="currentColor"><path d="M22.0049 6.99979H23.0049V16.9998H22.0049V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V6.99979ZM20.0049 16.9998H14.0049C11.2435 16.9998 9.00488 14.7612 9.00488 11.9998C9.00488 9.23836 11.2435 6.99979 14.0049 6.99979H20.0049V4.99979H4.00488V18.9998H20.0049V16.9998ZM21.0049 14.9998V8.99979H14.0049C12.348 8.99979 11.0049 10.3429 11.0049 11.9998C11.0049 13.6566 12.348 14.9998 14.0049 14.9998H21.0049ZM14.0049 10.9998H17.0049V12.9998H14.0049V10.9998Z"></path></svg>&nbsp;Payment Method</p>
+           <hr>
+           <select>
+            <option>Channel 1</option>
+            <option>Channel 2</option>
+            <option>Channel 3</option>
+            <option>Channel 4</option>
+           </select>
+        </div>
+  <div class="box6">
+     <p>&nbsp;<svg style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 9" width="30" height="30" fill="currentColor"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 15V17H13V15H11ZM11 7V13H13V7H11Z"></path></svg>&nbsp;Kind Reminder</p>
+     <br>
+     <p style="margin-left: 6px;">1. 24/7 Hour Recharge Supported</p>
+     <p style="margin-left: 6px;">2. Fast Recharge</p>
+     <p style="margin-left: 6px;">3. Customer Service</p>
+     <p style="margin-left: 6px;">4. If any problem please contact us.</p>
+  </div>
+  <a href="qr.html" style="text-decoration: none;"><div  class="rec">Recharge</div></a>
+        </div>
+    </div>  
+</body>
+</html>

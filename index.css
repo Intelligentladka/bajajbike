@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgba(128, 128, 128, 0.041)
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.header {
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: orange;
+}
+
+.navbar {
+    max-width: 100%;
+    min-width: 300px;
+    font-size: 20px;
+    color:orangered;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slider {
+    max-width: 100%;
+    min-width: 300px;
+    min-height: 100%;
+}
+.box{
+    max-width: 100%;
+    min-width:300px;
+}
+.box1{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.login{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:orangered;
+    min-height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.reg{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid orangered;
+    min-height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+  
